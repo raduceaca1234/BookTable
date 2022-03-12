@@ -103,20 +103,20 @@ function Login (props) {
 								<ul className="list-info">
 									<li>
 										<div className="dlab-box">
-											<i className="fa fa-bullhorn"></i>
-											<p>Get personalized advice from the friends and travel experts you trust</p>
+											<i className="fa fa-search" style={{marginLeft: 5, marginRight:25}}></i>
+											<p>Search for restaurants near your location</p>
 										</div>
 									</li>
 									<li>
 										<div className="dlab-box">
-											<i className="fa fa-car"></i>
-											<p>Easily find hotels, things to do & restaurants that are right fr you</p>
+											<i className="fa fa-map-o" style={{marginRight:20}}></i>
+											<p>Spot the best places based on your preferences and check their availablility</p>
 										</div>
 									</li>
 									<li>
 										<div className="dlab-box">
-											<i className="fa fa-check"></i>
-											<p>It's everything you need to know</p>
+											<i className="fa fa-smile-o" style={{marginLeft: 10,marginRight:25}}></i>
+											<p>Enjoy your meal!</p>
 										</div>
 									</li>
 								</ul>

@@ -53,7 +53,7 @@ class Header extends Component {
 								<div className="extra-cell">
 									{/* <Link to={"/register"} className="site-button-link white"><i className="ti-import m-r5 rotate90"></i> Sign In</Link> */}
 									<Logout />
-									<Link to={"/add-listing"} className="site-button radius-xl m-l10"><i className="fa fa-plus m-r5"></i> Add Listing</Link>
+									<Link to={"/add-listing"} className="site-button radius-xl m-l10"><i className="fa fa-plus m-r5"></i> Add Restaurant</Link>
 								</div>
 							</div>
 

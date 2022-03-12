@@ -92,9 +92,9 @@ class Topplace extends Component {
 				<div className="section-full bg-gray content-inner about-us">
 					<div className="container-fluid">
 						<div className="section-head text-black text-center">
-							<h2 className="box-title">Top Trending Places</h2>
+							<h2 className="box-title">Restaurants</h2>
 							<div className="dlab-separator bg-primary"></div>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+							<p>Some of the restaurants listed on our platform</p>
 						</div>
 						
 						
