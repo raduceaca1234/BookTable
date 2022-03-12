@@ -18,17 +18,15 @@ class Tabcontent extends Component {
 
 									<Form.Control as="select"  >
 										<option>Select Category</option>
-										<option>Construction</option>
-										<option>Corodinator</option>
-										<option>Employer</option>
-										<option>Financial Career</option>
-										<option>Information Technology</option>
-										<option>Marketing</option>
-										<option>Quality check</option>
-										<option>Real Estate</option>
-										<option>Sales</option>
-										<option>Supporting</option>
-										<option>Teaching</option>
+										<option>Vegan</option>
+										<option>Vegeterian</option>
+										<option>Gluten Free</option>
+										<option>Pet Friendly</option>
+										<option>Grill</option>
+										<option>Indian</option>
+										<option>Turkish</option>
+										<option>Chinese</option>
+										<option>Traditional</option>
 									</Form.Control>
 
 									<div className="input-group-prepend">
@@ -91,7 +89,7 @@ class Tabcontent extends Component {
 							</form>
 						</Tab.Pane>
 					</Tab.Content>
-					<p className="text-center text-white m-b10 m-t30">Find awesome places, bars, restaurants & activities.</p>
+					<p className="text-center text-white m-b10 m-t30" style={{ color: '#fff', fontSize: 25 }}><strong>Find awesome places, bars & restaurants.</strong></p>
 				</Tab.Container>
 			</div>
 		)

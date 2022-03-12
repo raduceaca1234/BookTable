@@ -4,16 +4,39 @@ import Slider from "react-slick";
 
 const userBlog= [
 	{
-		image: require('./../../images/testimonials/pic1.jpg'),
+		image: require('./../../images/testimonials/pic3.jpg'),
+		name: 'Andrei',
+		restaurant: 'ROD',
+		title: 'Wonderful music',
+		text: 'Good food, reasonable prices, artistic presentation. It is worth visiting for a culinary experience'
 	},
 	{
-		image: require('./../../images/testimonials/pic2.jpg'),
+		image: require('./../../images/testimonials/pic1.jpg'),
+		name: 'Andra',
+		restaurant: 'Boema',
+		title: 'Best food in town!',
+		text: 'A dream setting right in the heart of Cluj. Selected dishes, skillfully served. The place is also on the list of recommendations of the famous Gault & Millau guide.'
 	},
 	{
 		image: require('./../../images/testimonials/pic3.jpg'),
+		name: 'Vlad',
+		restaurant: 'Marhaba',
+		title: 'The Grill is amazing!',
+		text: 'The food is very tasty. Serving was quick. Polite staff. The location is tastefully decorated in accordance with Lebanese specifics.'
 	},
 	{
 		image: require('./../../images/testimonials/pic2.jpg'),
+		name: 'Maria',
+		restaurant: 'Baracca',
+		title: 'Good wine',
+		text: 'The tiramisu is fabulous! Very good food, nice and attentive serving. Not cheap, but definitely worth it.'
+	},
+	{
+		image: require('./../../images/testimonials/pic3.jpg'),
+		name: 'Alex',
+		restaurant: 'Maimuta Plangatoare',
+		title: 'Best serices!',
+		text: 'Excellent service, professional waiters, clean and rustic. The food is also very tasty, the serving time perfect and the drinks very nicely crafted. The price-performance ratio is very good and it is worth visiting this place, either for a quiet dinner or for a special occasion.'
 	},
 ]
 function SampleNextArrow(props) {
@@ -77,14 +100,14 @@ class Userowl extends Component{
 								<img src={item.image} alt="" />
 								</div>
 								<div className="client-info">
-									<h5 className="client-name">Diamond Anderson</h5> 
-									<span>Founder, uihub inc.</span> 
+									<h5 className="client-name">{item.name}</h5> 
+									<span>{item.restaurant}</span> 
 								</div>
 							</div>
 							
-							<div className="client-info-bx">
-								<h5>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip. </h5>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+							<div className="client-info-bx" style={{height:250}}>
+								<h5>{item.title} </h5>
+								<p>{item.text}</p>
 							</div>
 							
 						</div>

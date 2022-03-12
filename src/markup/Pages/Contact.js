@@ -30,47 +30,36 @@ const Contact = () =>{
 				<div className="section-full content-inner">
 					<div className="container">
 						<div className="row dzseth m-b50">
-							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div className="col-lg-4 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper p-lr20 p-tb50 center seth contact-bx">
 									<div className="icon-bx-sm radius m-b20 bg-primary m-b20">
 										<Link to={"#"} className="icon-cell"><i className="ti-location-pin"></i></Link>
 									</div>
 									<div className="icon-content">
 										<h5 className="dlab-tilte text-uppercase">Address</h5>
-										<p>123 West Street, Melbourne Victoria 3000 Australia</p>
+										<p>Str Observatorului 21, Cluj-Napoca, Romania</p>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div className="col-lg-4 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper p-lr20 p-tb50 center seth contact-bx">
 									<div className="icon-bx-sm radius m-b20 bg-primary m-b20">
 										<Link to={"#"} className="icon-cell"><i className="ti-email"></i></Link>
 									</div>
 									<div className="icon-content">
 										<h5 className="dlab-tilte text-uppercase">Email</h5>
-										<p>info@example.com <br/> info@example.com</p>
+										<p>ceaca.radu@yahoo.com <br/> prundus_vlad@yahoo.com</p>
 									</div>
 								</div>
 							</div>
-							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
+							<div className="col-lg-4 col-md-6 col-sm-6 m-b30">
 								<div className="icon-bx-wraper p-lr20 p-tb50 center seth contact-bx">
 									<div className="icon-bx-sm radius m-b20 bg-primary m-b20">
 										<Link to={"#"} className="icon-cell"><i className="ti-mobile"></i></Link>
 									</div>
 									<div className="icon-content">
 										<h5 className="dlab-tilte text-uppercase">Phone</h5>
-										<p>+61 3 8376 6284 <br/> +23 123 456 7890</p>
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-3 col-md-6 col-sm-6 m-b30">
-								<div className="icon-bx-wraper p-lr20 p-tb50 center seth contact-bx">
-									<div className="icon-bx-sm radius m-b20 bg-primary m-b20">
-										<Link to={"#"} className="icon-cell"><i className="ti-printer"></i></Link>
-									</div>
-									<div className="icon-content">
-										<h5 className="dlab-tilte text-uppercase">Fax</h5>
-										<p>+61 3 8376 6284 <br/> +23 123 456 7890</p>
+										<p>+40 748 012 238 <br/> +40 740 300 184</p>
 									</div>
 								</div>
 							</div>
@@ -78,7 +67,7 @@ const Contact = () =>{
 						
 						<div className="row">
 							
-							<div className="col-lg-6 mb-4 mb-md-0">
+							<div className="col-lg-12 mb-4 mb-md-0">
 								<div className="clearfix contact-form  m-b30">
 									<div className="section-head text-black">
 										<h2 className="box-title">Get In Touch</h2>
@@ -140,7 +129,7 @@ const Contact = () =>{
 								</div>
 							</div>
 						
-							<div className="col-lg-6 d-flex">
+							{/* <div className="col-lg-6 d-flex">
 								<div  className="m-b30 align-self-stretch" style={{width:"100%", minHeight:"100%" }}>
 									<GoogleMaps
 										apiKey={"AIzaSyAoQJGdiDN2BTT6FKMjpEqbRtMaA6HcLmE"}
@@ -150,7 +139,7 @@ const Contact = () =>{
 										markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
 									/>
 								</div>
-							</div>
+							</div> */}
 							
 						</div>
 						
