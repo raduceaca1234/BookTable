@@ -13,6 +13,7 @@ import Gridleftsidebar from './Pages/Gridleftsidebar';
 import Gridrightsidebar from './Pages/Gridrightsidebar';
 
 import Listingdetail2 from './Pages/Listingdetail2';
+import Baracca from './Pages/Baracca';
 
 import Blogstandar from './Pages/Blogstandar';
 import Blogstandardetail from './Pages/Blogstandardetail';
@@ -38,7 +39,7 @@ const Markup = () =>{
 					
 					
 					<Route path='/details/' exact component={Listingdetail2} />
-					<Route path='/details/Restaurant1' exact component={Listingdetail2} />
+					<Route path='/details/Baracca' exact component={Baracca} />
 					<Route path='/details/Restaurant2' exact component={Listingdetail2} />
 					<Route path='/details/Restaurant3' exact component={Listingdetail2} />
 					<Route path='/details/Restaurant4' exact component={Listingdetail2} />
